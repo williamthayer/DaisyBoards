@@ -342,169 +342,6 @@
 				)
 			)
 		)
-		(symbol "Device:D"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -5853,12 +5690,6 @@
 		(uuid "53b6733b-419d-401a-8943-7b40bdbbd947")
 	)
 	(junction
-		(at 137.16 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5aca30d9-81fb-4529-93e6-8ec7beecf6ef")
-	)
-	(junction
 		(at 147.32 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5917,12 +5748,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6c35d32-0584-4d93-a576-9bc60f32e7fb")
-	)
-	(junction
-		(at 147.32 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a77059ea-6207-4e78-b651-9b0a453c2ff4")
 	)
 	(junction
 		(at 147.32 124.46)
@@ -6126,6 +5951,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 157.48) (xy 157.48 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a7d320b-de5c-4402-a644-2febc056f6ea")
+	)
+	(wire
+		(pts
 			(xy 57.15 36.83) (xy 57.15 46.99)
 		)
 		(stroke
@@ -6143,16 +5978,6 @@
 			(type default)
 		)
 		(uuid "1b99d806-33bc-4d9b-857f-39683ba609b8")
-	)
-	(wire
-		(pts
-			(xy 147.32 153.67) (xy 147.32 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ca0d49a-f312-4192-8ee2-07b144ca5b3d")
 	)
 	(wire
 		(pts
@@ -6356,7 +6181,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 72.39) (xy 220.98 72.39)
+			(xy 220.98 72.39) (xy 217.17 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6376,13 +6201,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 163.83) (xy 147.32 163.83)
+			(xy 137.16 154.94) (xy 157.48 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4288ef97-a9b8-4b11-8053-3ac460148cd1")
+		(uuid "467b1b5c-fea8-42bb-aae9-63dfbcb9dfd0")
 	)
 	(wire
 		(pts
@@ -6406,7 +6231,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 67.31) (xy 208.28 67.31)
+			(xy 220.98 67.31) (xy 208.28 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6513,16 +6338,6 @@
 			(type default)
 		)
 		(uuid "5e3e3238-608b-4b98-abbe-daf9ccc8dbda")
-	)
-	(wire
-		(pts
-			(xy 137.16 154.94) (xy 147.32 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6069c51a-ed92-460f-aca6-b97d3036d233")
 	)
 	(wire
 		(pts
@@ -6986,16 +6801,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 144.78) (xy 137.16 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8a18c18-d25c-4591-a3b8-f115670ed487")
-	)
-	(wire
-		(pts
 			(xy 64.77 46.99) (xy 57.15 46.99)
 		)
 		(stroke
@@ -7226,33 +7031,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 154.94) (xy 147.32 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d977b0f3-17ec-4f66-b7a9-706844078b1e")
-	)
-	(wire
-		(pts
-			(xy 213.36 72.39) (xy 208.28 72.39)
+			(xy 209.55 72.39) (xy 208.28 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d9e84ec7-e256-432b-8c1c-c40f8f281e01")
-	)
-	(wire
-		(pts
-			(xy 147.32 154.94) (xy 157.48 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db1de75b-0ec5-48cc-9da3-99b1ad34ff8f")
 	)
 	(wire
 		(pts
@@ -7363,16 +7148,6 @@
 			(type default)
 		)
 		(uuid "ee8d80e1-0c49-48fa-afdf-03453d160775")
-	)
-	(wire
-		(pts
-			(xy 137.16 146.05) (xy 147.32 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3c6ff86-d064-4e60-b4ed-61a6afed46b5")
 	)
 	(wire
 		(pts
@@ -8983,7 +8758,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 157.48 158.75 0)
+		(at 157.48 161.29 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8992,7 +8767,7 @@
 		(dnp no)
 		(uuid "010d7a9a-57ce-4ee4-9f4c-e805a6b3c447")
 		(property "Reference" "R24"
-			(at 159.766 156.718 90)
+			(at 159.766 159.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9001,7 +8776,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 162.306 156.718 90)
+			(at 162.306 159.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9010,7 +8785,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 159.258 158.75 90)
+			(at 159.258 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9019,7 +8794,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 158.75 0)
+			(at 157.48 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9028,7 +8803,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 158.75 0)
+			(at 157.48 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9123,7 +8898,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 72.39 0)
+		(at 220.98 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9132,7 +8907,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fdb651d-c3c2-4ad2-8918-ce47102df0d9")
 		(property "Reference" "#PWR012"
-			(at 224.79 78.74 0)
+			(at 220.98 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9141,7 +8916,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 77.47 0)
+			(at 220.98 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9150,7 +8925,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 72.39 0)
+			(at 220.98 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9159,7 +8934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 72.39 0)
+			(at 220.98 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9168,7 +8943,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 72.39 0)
+			(at 220.98 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11662,7 +11437,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "X6511WVS-03H-C60D48R2"
 			(at 261.62 64.7699 0)
 			(effects
 				(font
@@ -12963,94 +12738,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 147.32 149.86 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f908eb0-b1b5-4bec-b84f-8182edccc5d9")
-		(property "Reference" "D4"
-			(at 149.86 148.5899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD9XD"
-			(at 149.86 151.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 147.32 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 147.32 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 147.32 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 147.32 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8cf4c159-8c05-463c-ba34-5d11d1d388f6")
-		)
-		(pin "1"
-			(uuid "b7549d91-50ae-4c63-ab0b-cf33152ef4ec")
-		)
-		(instances
-			(project ""
-				(path "/7e6422eb-c3b1-4c4a-b69f-f4b10fde7fbc"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 109.22 177.8 0)
 		(unit 1)
@@ -13260,94 +12947,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 147.32 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77f60fec-e869-441f-8dac-347944504560")
-		(property "Reference" "D5"
-			(at 149.86 158.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD9X"
-			(at 149.86 161.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 147.32 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 147.32 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 147.32 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 147.32 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f0c53546-aec9-46a6-9075-200ddf3c419e")
-		)
-		(pin "1"
-			(uuid "996345fc-1b33-499d-b488-62481d32455e")
-		)
-		(instances
-			(project "Daisy_Board_Servo"
-				(path "/7e6422eb-c3b1-4c4a-b69f-f4b10fde7fbc"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 36.83 154.94 0)
 		(unit 1)
@@ -13500,7 +13099,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "X6511WVS-03H-C60D48R2"
 			(at 261.62 78.7399 0)
 			(effects
 				(font
@@ -14753,7 +14352,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "X6511WVS-03H-C60D48R2"
 			(at 261.62 151.1299 0)
 			(effects
 				(font
@@ -14815,7 +14414,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8e489f4b-50fe-4fb1-9dac-57cedc26cfd0")
 		(property "Reference" "#PWR047"
 			(at 229.87 63.5 0)
@@ -14827,7 +14425,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 232.41 58.4199 0)
+			(at 225.044 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15169,7 +14767,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "X6511WVS-03H-C60D48R2"
 			(at 261.62 92.7099 0)
 			(effects
 				(font
@@ -15862,7 +15460,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "X6511WVS-03H-C60D48R2"
 			(at 261.62 137.1599 0)
 			(effects
 				(font
@@ -16045,7 +15643,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "X6511WVS-03H-C60D48R2"
 			(at 261.62 121.9199 0)
 			(effects
 				(font
@@ -16876,6 +16474,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 229.87 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6b794af-18f0-4e26-bd1b-56dba01a654f")
+		(property "Reference" "C9"
+			(at 230.632 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 230.886 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 230.8352 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 229.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43a3c134-7f88-4920-8ede-957eb88fd546")
+		)
+		(pin "2"
+			(uuid "71c632b1-3b12-4437-a35f-9925641aa1e3")
+		)
+		(instances
+			(project "Daisy_Board_Servo"
+				(path "/7e6422eb-c3b1-4c4a-b69f-f4b10fde7fbc"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N5820")
 		(at 242.57 34.29 0)
 		(unit 1)
@@ -17011,7 +16678,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 162.56 0)
+		(at 157.48 165.1 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17021,7 +16688,7 @@
 		(fields_autoplaced yes)
 		(uuid "ccb7e2c1-6c3e-4d48-b902-f95732d927d7")
 		(property "Reference" "#PWR055"
-			(at 157.48 168.91 0)
+			(at 157.48 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17030,7 +16697,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 167.64 0)
+			(at 157.48 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17039,7 +16706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 162.56 0)
+			(at 157.48 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17048,7 +16715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 162.56 0)
+			(at 157.48 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17057,7 +16724,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 162.56 0)
+			(at 157.48 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17139,75 +16806,6 @@
 			(project "DC_ESP32_Motor_Board_CAN"
 				(path "/7e6422eb-c3b1-4c4a-b69f-f4b10fde7fbc"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 229.87 64.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2536eae-038e-4067-962b-9176107ebd3a")
-		(property "Reference" "C1"
-			(at 229.108 66.802 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF 50V"
-			(at 228.854 61.976 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 228.9048 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 229.87 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "869efa6d-1dcb-4c1d-895d-26908bb10c57")
-		)
-		(pin "2"
-			(uuid "b3d46167-58f0-4df7-aa3f-89a8f3482292")
-		)
-		(instances
-			(project "Daisy_Board_Servo"
-				(path "/7e6422eb-c3b1-4c4a-b69f-f4b10fde7fbc"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -17523,7 +17121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20V 3A Schottky Barrier Rectifier Diode, DO-201AD"
+		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
 			(at 212.09 22.86 0)
 			(effects
 				(font
@@ -17548,74 +17146,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 137.16 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8027be0-c57b-4ba0-84c4-ec76bfefcc53")
-		(property "Reference" "#PWR053"
-			(at 137.16 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 137.16 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 137.16 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f0837b6-0312-4528-8552-ef8cd66dfd78")
-		)
-		(instances
-			(project "Daisy_Board_Servo"
-				(path "/7e6422eb-c3b1-4c4a-b69f-f4b10fde7fbc"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 224.79 67.31 0)
+		(at 220.98 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17624,7 +17156,7 @@
 		(fields_autoplaced yes)
 		(uuid "d971ab53-f2fa-4d15-94eb-2ba08533ac35")
 		(property "Reference" "#PWR014"
-			(at 224.79 73.66 0)
+			(at 220.98 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17633,7 +17165,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 72.39 0)
+			(at 220.98 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17642,7 +17174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 67.31 0)
+			(at 220.98 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17651,7 +17183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 67.31 0)
+			(at 220.98 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17660,7 +17192,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 67.31 0)
+			(at 220.98 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18177,7 +17709,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 217.17 72.39 90)
+		(at 213.36 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18185,7 +17717,7 @@
 		(dnp no)
 		(uuid "e69513fc-647c-4cb5-93a6-d93483a0eab1")
 		(property "Reference" "R2"
-			(at 215.138 74.676 90)
+			(at 211.328 74.676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18194,7 +17726,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 215.138 77.216 90)
+			(at 211.328 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18203,7 +17735,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 217.17 74.168 90)
+			(at 213.36 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18212,7 +17744,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 72.39 0)
+			(at 213.36 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18221,7 +17753,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 72.39 0)
+			(at 213.36 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18330,7 +17862,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "X6511WVS-03H-C60D48R2"
 			(at 261.62 50.7999 0)
 			(effects
 				(font
@@ -18537,7 +18069,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "X6511WVS-03H-C60D48R2"
 			(at 261.62 106.6799 0)
 			(effects
 				(font
