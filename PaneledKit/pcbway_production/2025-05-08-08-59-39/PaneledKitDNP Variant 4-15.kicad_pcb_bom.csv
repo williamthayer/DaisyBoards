@@ -15,7 +15,6 @@ IC13,1,ACS712ELCTR-05B-T,SOIC127P600X175-8N,,ACS712ELCTR-05B-T,,smt,SENSOR CURRE
 IC3,1,MCF8316A1VRGFR,QFN50P500X700X100-41N-D,,MCF8316A1VRGFR,,smt,"Motor / Motion / Ignition Controllers & Drivers 40-V max, 8-A peak, sensorless FOC control 3-phase BLDC motor driver",1,Texas Instruments,595-MCF8316A1VRGFR,https://www.mouser.co.uk/ProductDetail/Texas-Instruments/MCF8316A1VRGFR?qs=rSMjJ%252B1ewcSvC9rVuQgDWA%3D%3D,,
 "J13, J14, J15, J17, J33, J34, J37, J38, J43, J44, J46, J47, J49, J51, J57, J58, J59, J60, J61, J62",20,SM04B-SRSS-TB,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,,,,smt,JST 4 Pin,,,,,,
 "J40, J41, J42, J48, J53, J54, J55, J56",8,X6511WVS-03H-C60D48R2,PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Right,,,,smt,"Generic connector, single row, 01x03, script generated",,,,,,
-LED6,1,WS2812C-2020,WS2812C2020,,WS2812C-2020,,smt,Intelligent control LED integrated light source,0.84,Worldsemi,,,,
 "Q1, Q11, Q12, Q13, Q14, Q2, Q3, Q9",8,40N05,SOT-23-3,,,,smt,"N-MOSFET transistor, gate/source/drain",,,,,,
 "Q10, Q15, Q16, Q17, Q18, Q19, Q20, Q6, Q7, Q8",10,BSS138,SOT-23,,,,smt,"SOT-23 N-MOSFET enchancement mode transistor, 50V, 200mA, 300mW, Alternate KiCAD Library",,,,,,
 "R100, R103, R104, R108, R63, R91, R94, R95",8,220,R_0402_1005Metric,,,,smt,,,,,,,
